@@ -18,4 +18,4 @@ fruits_selected = streamlit.multiselect("Pick some fruits:", list(my_fruit_df['F
 fruits_to_show = my_fruit_df[my_fruit_df['Fruit'].isin(fruits_selected)]
 
 #display the table on the page
-streamlit.dataframe(my_fruit_df)
+streamlit.dataframe(fruits_to_show)
