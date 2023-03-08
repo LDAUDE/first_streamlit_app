@@ -54,7 +54,7 @@ streamlit.write('The user entered ', fruit_choice)
 # don't run anything past here while we troubleshoot
 #streamlit.stop()
 
-streamlit.header("The fruit load list contains:")
+streamlit.header("View Our Fruit List - Add Your Favorites!")
 
 def get_load_fruit_list():
   with my_cnx.cursor() as my_cur:
